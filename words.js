@@ -1,11 +1,10 @@
 const wordList = [
     ['sweep', 'to move, especially quickly and powerfully'],
-    ['crack', 'to break something so that it does not separate, but very thin lines appear on its surface, or to become broken in this way'],
-    ['enemy', 'a country, or the armed forces of a country, that is at war with another country'],    
+    ['crack', 'to break something so that it does not separate, but very thin lines appear on its surface, or to become broken in this way'],      
 ['enemy',	'a person who hates or opposes another person and tries to harm them or stop them from doing something'],
 ['obviously',	'in a way that is easy to understand or see'],
 ['pretend',	'to behave as if something is true when you know that it is not, especially in order to deceive people or as a game'],
-['convinced',	'certain'],
+['convinced',	'completely certain about something'],
 ['relive', 'to remember clearly an experience that happened in the past'],
 ['dunno',	'short form of I don\'t know'],
 ['magnificent',	'very good, beautiful, or deserving to be admired'],
@@ -16,7 +15,7 @@ const wordList = [
 ['disgusting',	'extremely unpleasant or unacceptable'],
 ['obvious',	'easy to see, recognize, or understand'],
 ['rage', '(a period of) extreme or violent anger'],
-['roar', 'with sth	to express an emotion, such as laughter or anger, noisily'],
+['roar with sth', 'to express an emotion, such as laughter or anger, noisily'],
 ['roar',	'to make a long, loud, deep sound'],
 ['rare',	'not common or frequent; very unusual'],
 ['yell',	'to shout something or make a loud noise, usually when you are angry, in pain, or excited'],
@@ -101,7 +100,118 @@ const wordList = [
 ['dishonest',	'not honest'],
 ['orphanage', 'a home for children whose parents are dead or unable to care for them'],
 ['case',	'a particular situation or example of something'],
-['slip',	'to slide by accident and fall or almost fall']
+['slip',	'to slide by accident and fall or almost fall'],
+['a regret', 'сожаление'],
+['fearfully', 'страшно'],
+['a loony', 'полоумный'],
+['a plank', 'доска'],
+['illiterate', 'неграмотный'],
+['a climber', 'альпинист'],
+['completely', 'полностью'],
+['goodly', 'красивый'],
+['a crutch', 'опора'], 
+['a syllable', 'слог'],
+['a torture', 'пытка'],
+['run out of', 'израсходовать'],
+['typical of', 'типичный для'],
+['at least', 'по крайней мере'],
+['the other side', 'другая жизнь'],
+['be at someone\'s feet', 'быть у чьих-то ног'],
+['be supposed to','быть должным (сделать что-либо)'],
+['they say', 'говорят'],
+['go over', 'обсуждать'],
+['take for granted', 'принимать как должное'],
+['throw on', 'надевать'], 
+['so far', 'на сегодняшний момент'], 
+['lose touch', 'потерять связь'], 
+['a rake', 'грабли'],
+
+['peculiar',
+'своеобразный'],
+
+['to patch',
+'латать'],
+
+['to bewitch',
+'заколдовывать'],
+
+['mainly',
+'главным образом'],
+
+['to lead',
+'приводить'],
+
+['youth',
+'молодость'],
+
+['young',
+'молодой'],
+
+['a yard',
+'двор'],
+['in the middle of',
+'посреди'],
+['fish out of water',
+'не в своей тарелке'],
+['leave to chance',
+'предоставить дело случаю'],
+['nothing but',
+'only.'],
+['long for',
+'тосковать'],
+['ergo',
+'следовательно'],
+['run into',
+'натыкаться'],
+['be here to stay',
+'войти во всеобщее употребление'],
+['check out',
+'выселяться'],
+['turn on',
+'включать'],
+['look after',
+'присматривать'],
+['an egis',
+'защита'],
+['used to',
+'раньше'],
+['be off',
+'удаляться'],
+['break up',
+'разрывать отношения'],
+['stay on',
+'оставаться'],
+['be supposed to',
+'быть должным (сделать что-либо)'],
+['not half',
+'совсем не'],
+['break down',
+'ломаться'],
+['this way',
+'таким образом'],
+['watch out',
+'быть осторожным'],
+['a tyre',
+'шина'],
+['tabby',
+'полосатый'],
+['out there',
+'где-то там'],
+['check in',
+'регистрироваться'],
+['write down',
+'записывать'],
+['work out',
+'тренироваться'],
+['get along with',
+'ладить'],
+['fall apart',
+'разваливаться на части'],
+['look up',
+'искать'],
+['a coiner', 'фальшивомонетчик'],
+['on and on', 'снова и снова']
+
 ]
 
 const wordRu = document.querySelector('.word_ru');
@@ -158,32 +268,7 @@ function prevWord() {
 next.addEventListener('click', nextWord);
 prev.addEventListener('click', prevWord);
 
-/*
-const textEl = document.getElementById('text');
-const speakEl = document.getElementById('speak');
 
-
-speakEl.addEventListener('click', speakText);
-
-
-
-
-  
-function speakText() {
-  
-  window.speechSynthesis.cancel();
-
- 
-  let text = wordList[count][0];
-  const utterance = new SpeechSynthesisUtterance(text);
-  const voices = window.speechSynthesis.getVoices();
-  const lastVoice = voices[1]; // заменить голос
-  utterance.voice = lastVoice;
-  utterance.rate = 0.5;        //скорость
-  
- 
-  window.speechSynthesis.speak(utterance);
-}*/
 
 const textEl = document.getElementById('text');
 const voiceInEl = document.getElementById('voice');
@@ -195,25 +280,25 @@ const rateOutEl = document.querySelector('output[for="rate"]');
 const volumeOutEl = document.querySelector('output[for="volume"]');
 const speakEl = document.getElementById('speak');
 
-// add UI event handlers
+
 pitchInEl.addEventListener('change', updateOutputs);
 rateInEl.addEventListener('change', updateOutputs);
 volumeInEl.addEventListener('change', updateOutputs);
 speakEl.addEventListener('click', speakText);
 
-// update voices immediately and whenever they are loaded
+
 updateVoices();
 window.speechSynthesis.onvoiceschanged = updateVoices;
 
 function updateOutputs() {
-  // display current values of all range inputs
+ 
   pitchOutEl.textContent = pitchInEl.value;
   rateOutEl.textContent = rateInEl.value;
   volumeOutEl.textContent = volumeInEl.value;
 }
 
 function updateVoices() {
-  // add an option for each available voice that isn't already added
+  
   window.speechSynthesis.getVoices().forEach(voice => {
     const isAlreadyAdded = [...voiceInEl.options].some(option => option.value === voice.voiceURI);
     if (!isAlreadyAdded) {
@@ -224,10 +309,10 @@ function updateVoices() {
 }
 
 function speakText() {
-  // stop any speaking in progress
+  
   window.speechSynthesis.cancel();
 
-  // create new utterance with all the properties
+  
   const text = wordList[count][0];
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.voice = window.speechSynthesis.getVoices().find(voice => voice.voiceURI === voiceInEl.value);
@@ -235,7 +320,7 @@ function speakText() {
   utterance.rate = rateInEl.value;
   utterance.volume = volumeInEl.value;
   
-  // speak that utterance
+ 
   window.speechSynthesis.speak(utterance);
 }
 
