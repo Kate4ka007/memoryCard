@@ -241,10 +241,19 @@ function speakText() {
 
 
 const setting = document.querySelector('.setting');
-const properties = document.querySelector('.properties');
+const properties = document.querySelector('.modal');
+const overlay = document.querySelector('.overlay');
+const close = document.querySelector('.close');
  
 
 setting.addEventListener('click', () => {
     
     properties.style.display === 'none'? properties.style.display = 'block': properties.style.display = 'none';
-})
+    overlay.style.display === 'none'? overlay.style.display = 'block': overlay.style.display = 'none';
+});
+
+
+close.addEventListener('click', () => {
+  properties.style.display = 'none';
+    overlay.style.display = 'none';
+});
