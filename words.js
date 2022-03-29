@@ -336,205 +336,207 @@ const wordList = [
 ['influence',	'Влияние'],
 ['sway',	'Колебание'],
 ['willpower',	'Сила воли'],
-['inequality',	'Неравенство']
+['inequality',	'Неравенство'],
+['А violence',	'Насилие, жестокость'],
+['А bullying', 'Издевательство, травля'],
+['А godliness',	'Благочестие, бодрость'],
+['А compassion',	'Сострадание'],
+['inclusivity',	'Инклюзивность'],
+['А reciprocity',	'Взаимность, обоюдность'],
+['friskiness',	'Игривость, раскованность, живость'],
+['fervor',	'Пылкость, задор, рвение'],
+['А youth',	'Молодежь, юноша, молодость'],
+['adolescence',	'Подростковый возраст, отрочество'],
+['А prerequisite',	'Предпосылка, условие'],
+['fortune	Судьба', 'удача, желание, успех'],
+['А Stubbornness', 'Упрямость'],
+['disappointment',	'Разочарование'],
+['distancing',	'Дистанцирование'],
+['isolation',	'Изоляция'],
+['self-care',	'Забота о себе'],
+['medication',	'Лекарство'],
+['celebration',	'Мероприятие'],
+['physician',	'Врач, доктор, терапевт'],
+['treatment',	'Лечение'],
+['improvement',	'Улучшение'],
+['symptom',	'Симптом'],
+['dismay',	'Огорчение'],
+['cancellation',	'Отмена'],
+['suspiciousness',	'Подозрительность'],
+['escalation',	'Обострение, эскалация'],
+['proceeding',	'Разбирательство'],
+['awareness',	'Осознание'],
+['responsibility', 'Ответственность'],
+['aftermath',	'Последствие'],
+['weakness',	'Слабость'],
+['rivalry',	'Соперничество, противостояние'],
+['restlessness',	'Беспокойство'],
+['uncertainty',	'Неуверенность, неопределенность'],
+['stress resistance',	'Стрессоустойчивость'],
+['conscience', 'Совесть'],
+['А mindfulness', 'Внимательность, мышление, осознанность'],
+['protection', 'Защита, протекция'],
+['referral', 'Направление'],
+['hopelessness', 'Безнадежность'],
+['reliability', 'Надежность'],
+['verification', 'Проверка'],
+['self-isolation', 'Самоизоляция'],
+['А provocation', 'Провокация'],
+['prevention', 'Профилактика'],
+['side effect', 'Побочный эффект'],
+['vaccination', 'Вакцинация']
+['immunization', 'Иммунизация'],
+['contradiction', 'Противоречие'],
+['emotion', 'Эмоция'],
+['disagreement', 'Разногласие'],
+['misunderstanding', 'Недоразумение, недопонимание'],
+['negotiation', 'Переговоры'],
+['downfall', 'Падение, упадок, крах, понижение'],
+['А setback', 'Неудача, провал'],
+['А bad luck', 'Невезение, несчастье'],
+['depression',	'Депрессия'],
+['А solitude', 'Одиночество'],
+['А self-blame', 'Самобичевание'],
+['А disorder', '	Расстройство, разлад'],
+['А instability', '	Нестабильность'],
+['А challenge', '	Вызов, сложность'],
+['А sustainability', 'Устойчивость, жизнеспособность'],
+['duration', '	Продолжительность'],
+['А luckiness', '	Удачливость, везение'],
+['А fluke', 'Случайность, шанс'],
 
 /*
-'А violence'	Насилие, жестокость
-'А bullying'	Издевательство, травля
-'А godliness'	Благочестие, бодрость
-'А compassion'	Сострадание
-'inclusivity	Инклюзивность'
-'А reciprocity'	Взаимность, обоюдность
-'friskiness	Игривость', раскованность, живость
-'fervor	Пылкость', задор, рвение
-'А youth'	Молодежь, юноша, молодость
-'adolescence	Подростковый' возраст, отрочество
-'А prerequisite'	Предпосылка, условие
-'fortune	Судьба', удача, желание, успех
-'А Stubbornness'	Упрямость
-'disappointment'	Разочарование
-'distancing'	Дистанцирование
-'isolation'	Изоляция
-'self-care'	Забота о себе
-'medication'	Лекарство
-'celebration'	Мероприятие
-'physician'	Врач, доктор, терапевт
-'treatment'	Лечение
-'improvement'	Улучшение
-'symptom'	Симптом
-'dismay'	Огорчение
-'cancellation'	Отмена
-'suspiciousness'	Подозрительность
-'escalation'	Обострение, эскалация
-'proceeding'	Разбирательство
-'awareness'	Осознание
-'responsibility'	Ответственность
-'aftermath'	Последствие
-'weakness'	Слабость
-'rivalry'	Соперничество, противостояние
-'restlessness'	Беспокойство
-'uncertainty'	Неуверенность, неопределенность
-'stress' resistance	Стрессоустойчивость
-'conscience'	Совесть
-'А mindfulness'	Внимательность, мышление, осознанность
-'protection'	Защита, протекция
-'referral'	Направление
-'hopelessness'	Безнадежность
-'reliability'	Надежность
-'verification'	Проверка
-'self-isolation'	Самоизоляция
-'А provocation' Провокация
-'prevention'	Профилактика
-'side effect'	Побочный эффект
-'vaccination'	Вакцинация
-'immunization'	Иммунизация
-'contradiction'	Противоречие
-'emotion'	Эмоция
-'disagreement'	Разногласие
-'misunderstanding'	Недоразумение, недопонимание
-'negotiation'	Переговоры
-'downfall'	Падение, упадок, крах, понижение
-'А setback'	Неудача, провал
-'А bad luck'	Невезение, несчастье
-'depression'	Депрессия
-'А solitude'	Одиночество
-'А self-blame'	Самобичевание
-'А disorder'	Расстройство, разлад
-'А instability'	Нестабильность
-'А challenge'	Вызов, сложность
-'А sustainability'	Устойчивость, жизнеспособность
-'duration'	Продолжительность
-'А luckiness'	Удачливость, везение
-'А fluke'Случайность, шанс
-'А winning'	Выигрыш, победа, завоевание
-'lottery'	Лотерея
-'destination'	Предназначение
-'advantage'	Преимущество
-'win'-win	Победа, выигрыш
-'condition'	Условие, обстоятельство, состояние
-'contest'	Соревнование, борьба, конкурс
-'А humbleness'	Смирение, скромность, покорность
-'А fearlessness'	Бесстрашие
-'А hardening'	Закалка, твердость
-'А buoyancy'	Оживленность, жизнелюбие
-'А cheerfulness'	Жизнерадостность, веселость
-'А hospitality'	Гостеприимство, радушие
-'А pessimism'	Пессимизм
-'А morale'	Мораль, дух, нрав, мужество
-'А wisdom'	Мудрость
-'А proficiency'	Мастерство, умение, квалификация
-'applicant'	Претендент, соискать, заявитель
-'А decisiveness'	Решительность
-'А loophole'	Лазейка, дыра
-'А frustration'	Фрустрация, разочарование
-'А knowledge'	Знание, познание
-'А decision-making'	Принятие решения
-'alacrity'	Аккуратность, активность, стремительность
-'extremity'	Крайность, упорство, чрезмерность
-'А background'	Фон, предпосылка
-'А preparatory'	Подготовка
-'Arrogant'	Высокомерный, заносчивый
-'Civilian'	Гражданский
-'Commercial'	Коммерческий
-'Convenient'	Удобный
-'Creative'	Креативный, творческий
-'Naughty'	Озорной, шаловливый
-'Stationary'	Стационарный
-'Valuable'	Ценный
-'Significant'	Значительный, существенный
-'Foremost'	Передовой, основной, главный
-'Recent'	Недавний
-'Updated'	Обновленный
-'Operational'	Оперативный, рабочий, действующий
-'Intuitive'	Интуитивно понятный, интуитивный
-'Essential'	Существенный, важный
-'Numerous'	Многочисленный
-'Compliant'	Соответствующий
-'Straightforward'	Прямой, прямолинейный
-'Understandable'	Понятный, доступный
-'Uncompromising'	Беспрекословный
-'Distinguished'	Выдающийся, уважаемый, отличительный
-'Separate'	Отдельный
-'Outstanding'	Незаурядный
-'Principal'	Принципиальный, главный
-'Leading'	Ведущий, лидирующий
-'Cognitive'	Когнитивный, познавательный
-'Cutting-edge'	Современный, новейший
-'Precise'	Точный, четкий
-'Unmatched'	Неповторимый, непревзойденный
-'Reasonable'	Разумный, целесообразный
-'Fundamental'	Основополагающий
-'Brilliant'	Блестящий, гениальный
-'Inflexible'	Несгибаемый, непогрешимый
-'Crucial'	Решающий, критический, важный
-'Contemporary'	Современный, актуальный
-'Duplicated'	Дублированный
-'Tedious'	Утомительный, кропотливый, надоедливый
-'Multiple'	Множественный, многочисленный
-'Individual'	Личный, индивидуальный
-'Fitting'	Подходящий
-'Monotonous'	Монотонный, однообразный
-'Ruthless'	Бесчеловечный
-'Multi'-channel	Многоканальный
-'Astonishing'	Удивительный, изумительный
-'Ambitious'	Амбициозный, честолюбивый
-'Captivating'	Захватывающий, завораживающий
-'Profound'	Глубокомысленный
-'Qualified'	Квалифицированный
-'Remarkable'	Замечательный, примечательный, выдающийся
-'Additional'	Дополнительный
-'Burning'	Горящий, жгучий
-'Unassuming'	Непритязательный
-'Meaningful'	Значимый, осмысленный
-'Private'	Личный, частный
-'Careful'	Бережный, осторожный
-'Obscure'	Наблюдательный, непонятный
-'Accomplished'	Состоятельный, успешный, достигнутый
-'Ridiculous'	Нелепый, смешной
-'Contemptuous'	Презрительный
-'Fashionable'	Модный
-'Invariably'	Неизменно
-'Intermittently'	Иногда
-'Infrequently'	Редко
-'Predominantly'	Постоянно
-'Elsewhere'	Где-нибудь
-'Scarcely'	Едва
-'Otherwise'	Иначе
-'Quickly'	Быстро
-'Quietly'	Спокойно, тихо
-'Moreover'	Более того
-'Nevertheless'	Тем не менее
-'Somewhat'	До некоторой степени
-'Cheerfully'	Весело
-'Clumsily'	Неуклюже
-'In vain'	Напрасно
-'At once'	Немедленно
-'Casually'	Случайно
-'Since that'	С тех пор
-'By all means'	Во что бы то ни стало
-'Readily'	'Охотно'
-'Outside'	'Снаружи'
-'Besides'	Кроме того
-'Once'	'Однажды'
-'However'	Однако, как бы ни
-'Yet'	Еще, до сих пор
-'Foolishly'	Глупо, по глупости
-'Clearly'	'Очевидно'
-'Actually'	В общем, вообще-то
-'Completely'	Совершенно, абсолютно
-'Extremely'	'Безумно'
-'Nearby'	Рядом, неподалеку
-'Unmistakable'	'Безошибочно'
-'Accurately'	'Точно'
-'Definitely'	'Абсолютно'
-'Relentlessly'	'Безостановочно'
-'Incredibly'	Невероятно, очень, неимоверно
-'Decidedly'	'Решительно'
-'Firmly'	'Уверенно'
-'Carelessly'	'Беспечно'
-['Nevertheless',	'Тем не менее']
+['А winning'	Выигрыш, победа, завоевание
+['lottery'	Лотерея
+['destination'	Предназначение
+['advantage'	Преимущество
+['win'-win	Победа, выигрыш
+['condition'	Условие, обстоятельство, состояние
+['contest'	Соревнование, борьба, конкурс
+['А humbleness'	Смирение, скромность, покорность
+['А fearlessness'	Бесстрашие
+['А hardening'	Закалка, твердость
+['А buoyancy'	Оживленность, жизнелюбие
+['А cheerfulness'	Жизнерадостность, веселость
+['А hospitality'	Гостеприимство, радушие
+['А pessimism'	Пессимизм
+['А morale'	Мораль, дух, нрав, мужество
+['А wisdom'	Мудрость
+['А proficiency'	Мастерство, умение, квалификация
+['applicant'	Претендент, соискать, заявитель
+['А decisiveness'	Решительность
+['А loophole'	Лазейка, дыра
+['А frustration'	Фрустрация, разочарование
+['А knowledge'	Знание, познание
+['А decision-making'	Принятие решения
+['alacrity'	Аккуратность, активность, стремительность
+['extremity'	Крайность, упорство, чрезмерность
+['А background'	Фон, предпосылка
+['А preparatory'	Подготовка
+['Arrogant'	Высокомерный, заносчивый
+['Civilian'	Гражданский
+['Commercial'	Коммерческий
+['Convenient'	Удобный
+['Creative'	Креативный, творческий
+['Naughty'	Озорной, шаловливый
+['Stationary'	Стационарный
+['Valuable'	Ценный
+['Significant'	Значительный, существенный
+['Foremost'	Передовой, основной, главный
+['Recent'	Недавний
+['Updated'	Обновленный
+['Operational'	Оперативный, рабочий, действующий
+['Intuitive'	Интуитивно понятный, интуитивный
+['Essential'	Существенный, важный
+['Numerous'	Многочисленный
+['Compliant'	Соответствующий
+['Straightforward'	Прямой, прямолинейный
+['Understandable'	Понятный, доступный
+['Uncompromising'	Беспрекословный
+['Distinguished'	Выдающийся, уважаемый, отличительный
+['Separate'	Отдельный
+['Outstanding'	Незаурядный
+['Principal'	Принципиальный, главный
+['Leading'	Ведущий, лидирующий
+['Cognitive'	Когнитивный, познавательный
+['Cutting-edge'	Современный, новейший
+['Precise'	Точный, четкий
+['Unmatched'	Неповторимый, непревзойденный
+['Reasonable'	Разумный, целесообразный
+['Fundamental'	Основополагающий
+['Brilliant'	Блестящий, гениальный
+['Inflexible'	Несгибаемый, непогрешимый
+['Crucial'	Решающий, критический, важный
+['Contemporary'	Современный, актуальный
+['Duplicated'	Дублированный
+['Tedious'	Утомительный, кропотливый, надоедливый
+['Multiple'	Множественный, многочисленный
+['Individual'	Личный, индивидуальный
+['Fitting'	Подходящий
+['Monotonous'	Монотонный, однообразный
+['Ruthless'	Бесчеловечный
+['Multi'-channel	Многоканальный
+['Astonishing'	Удивительный, изумительный
+['Ambitious'	Амбициозный, честолюбивый
+['Captivating'	Захватывающий, завораживающий
+['Profound'	Глубокомысленный
+['Qualified'	Квалифицированный
+['Remarkable'	Замечательный, примечательный, выдающийся
+['Additional'	Дополнительный
+['Burning'	Горящий, жгучий
+['Unassuming'	Непритязательный
+['Meaningful'	Значимый, осмысленный
+['Private'	Личный, частный
+['Careful'	Бережный, осторожный
+['Obscure'	Наблюдательный, непонятный
+['Accomplished'	Состоятельный, успешный, достигнутый
+['Ridiculous'	Нелепый, смешной
+['Contemptuous'	Презрительный
+['Fashionable'	Модный
+['Invariably'	Неизменно
+['Intermittently'	Иногда
+['Infrequently'	Редко
+['Predominantly'	Постоянно
+['Elsewhere'	Где-нибудь
+['Scarcely'	Едва
+['Otherwise'	Иначе
+['Quickly'	Быстро
+['Quietly'	Спокойно, тихо
+['Moreover'	Более того
+['Nevertheless'	Тем не менее
+['Somewhat'	До некоторой степени
 
 */
+['Cheerfully',	'Весело'],
+['Clumsily',	'	Неуклюже'],
+['In vain',	'	Напрасно'],
+['At once',	'	Немедленно'],
+['Casually',	'	Случайно'],
+['Since that',	'С тех пор'],
+['By all means',	'Во что бы то нистало'],
+['Readily',	'Охотно'],
+['Outside',	'Снаружи'],
+['Besides',	'Кроме того'],
+['Once',	'Однажды'],
+['However',	'Однако, как бы ни'],
+['Yet',	'Еще, до сих пор'],
+['Foolishly',	'Глупо, по глупости'],
+['Clearly',	'Очевидно'],
+['Actually',	'В общем, вообще-то'],
+['Completely','	Совершенно, абсолютно'],
+['Extremely',	'Безумно'],
+['Nearby',	'Рядом, неподалеку'],
+['Unmistakable',	'Безошибочно'],
+['Accurately',	'Точно'],
+['Definitely',	'Абсолютно'],
+['Relentlessly',	'Безостановочно'],
+['Incredibly',	'Невероятно, очень, неимоверно'],
+['Decidedly',	'Решительно'],
+['Firmly',	'Уверенно'],
+['Carelessly',	'Беспечно'],
+['Nevertheless',	'Тем не менее']
+
+
 ]
 
 const wordRu = document.querySelector('.word_ru');
