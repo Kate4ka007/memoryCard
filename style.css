@@ -174,7 +174,6 @@ button:hover {
   top: 20%;
   margin: auto auto;
   width: 50%;
-  height: 50%;
   display: none;
   background-color: #0a64a4;
   display: none;
@@ -218,6 +217,9 @@ button:hover {
   .modal {
     width: 80%;
   }
+  .year {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 410px) {
@@ -231,6 +233,16 @@ button:hover {
   }
   .modal {
     width: 100%;
+  }
+  .properties {
+    font-size: 1rem;
+  }
+  output {
+    margin-bottom: 5px;
+    font-size: 0.5rem;
+  }
+  output:last-child {
+    margin-bottom: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
