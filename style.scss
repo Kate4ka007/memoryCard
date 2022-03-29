@@ -95,6 +95,27 @@ button {
   left: 1rem;
   width: 10px;
 }
+
+#voice {
+  width: 150px;
+  height: 20px;
+}
+
+.properties {
+  position: absolute;
+  right: 0;
+  top: 50vh;
+  width: 200px;
+  display: none;
+}
+
+.setting {
+  position: absolute;
+  top: 40vh;
+  right: 15px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 410px) {
   .memory-card {
     width: 300px;
