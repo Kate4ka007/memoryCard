@@ -103,14 +103,14 @@ button:hover {
 }
 
 .speak {
-  cursor: pointer;
-  margin: 5px;
+  margin: 15px;
   margin-bottom: 10px;
 }
 
 .speak:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  cursor: pointer;
 }
 
 .numbersWord {
@@ -204,6 +204,14 @@ button:hover {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 10;
+}
+
+.year {
+  font-size: 1.5rem;
+  color: aliceblue;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 5rem;
 }
 
 @media screen and (max-width: 700px) {
