@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100wh;
+  height: 100vh;
+  background-color: #65a5d1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.memory-card {
+  width: 400px;
+  height: 300px;
+  background-color: #0a64a4;
+  border: #03406a 3px solid;
+  color: aliceblue;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.memory-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+
+.memory-card:hover {
+  background-color: #1f83ca;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  cursor: pointer;
+}
+
+.word_ru {
+  display: none;
+}
+
+.word_en {
+  display: block;
+}
+
+.numbersWord {
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  color: aliceblue;
+  background-color: #03406a;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #ffbe00;
+  color: black;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.next {
+  margin-left: 10px;
+}
+
+.prev {
+  margin-right: 10px;
+}
+
+.word_ru {
+  color: #ffce40;
+}
+
+.speak {
+  cursor: pointer;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.speak:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.numbersWord {
+  color: #ffdb73;
+}
+
+.github {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  width: 10px;
+}
+
+@media screen and (max-width: 410px) {
+  .memory-card {
+    width: 300px;
+    height: 350px;
+    background-color: #0a64a4;
+    color: aliceblue;
+    font-size: 1, 5rem;
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
