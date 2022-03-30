@@ -918,7 +918,7 @@ const frasVerbs = [
 ['turn on',	'включать'],
 ['turn up',	'объявляться'],
 ['wait on',	'обслуживать'],
-['walk out', 'on	бросать'],
+['walk out on', 'бросать'],
 ['wash up',	'мыть посуду'],
 ['wear off',	'постепенно проходить'],
 ['wear on',	'тянуться'],
@@ -931,7 +931,7 @@ const frasVerbs = [
 
 
 let count = 0;
-let  wordList;  
+let  wordList = wordL;  
 
 let dictionaries = document.querySelectorAll('.dictionaries');
 
@@ -1026,12 +1026,10 @@ const rateOutEl = document.querySelector('output[for="rate"]');
 const volumeOutEl = document.querySelector('output[for="volume"]');
 const speakEl = document.getElementById('speak');
 
-
 pitchInEl.addEventListener('change', updateOutputs);
 rateInEl.addEventListener('change', updateOutputs);
 volumeInEl.addEventListener('change', updateOutputs);
 speakEl.addEventListener('click', speakText);
-
 
 updateVoices();
 window.speechSynthesis.onvoiceschanged = updateVoices;
@@ -1050,25 +1048,39 @@ function updateVoices() {
     if (!isAlreadyAdded) {
       const option = new Option(voice.name, voice.voiceURI, voice.default, voice.default);
       voiceInEl.add(option);
+      
+      
     }
   });
 }
 
-function speakText() {
-  
-  window.speechSynthesis.cancel();
-
-  
+function speakText() {  
+  window.speechSynthesis.cancel();  
   const text = wordList[count][0];
-  const utterance = new SpeechSynthesisUtterance(text);
+  utterance = new SpeechSynthesisUtterance(text);  
+
+  if(localStorage.getItem('voice')) {    
+    let cat = localStorage.getItem('voice');
+    console.log(utterance)
+    console.log(cat)
+    utterance.voice = window.speechSynthesis.getVoices().find(voice => voice.voiceURI === cat);
+    if(utterance.voice == undefined) {
+      utterance.voice = window.speechSynthesis.getVoices().find(voice => voice.voiceURI === voiceInEl.value);
+    }
+  } else {
   utterance.voice = window.speechSynthesis.getVoices().find(voice => voice.voiceURI === voiceInEl.value);
+  console.log(utterance.voic)
+  }
   utterance.pitch = pitchInEl.value;
   utterance.rate = rateInEl.value;
   utterance.volume = volumeInEl.value;
-  
- 
+  console.log(utterance.voice) 
   window.speechSynthesis.speak(utterance);
 }
+
+voiceInEl.addEventListener('change', () => {
+  localStorage.setItem('voice', voiceInEl.value);
+});
 
 
 const setting = document.querySelector('.setting');
