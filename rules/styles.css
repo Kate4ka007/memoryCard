@@ -31,6 +31,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 0 auto;
 }
 
 .table_1 {
@@ -87,6 +88,8 @@ body {
 
 .footer_rules {
   margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
