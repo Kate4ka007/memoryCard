@@ -188,38 +188,13 @@ button {
   }
 }
 
-@media screen and (max-width: 410px) {
-  .memory-card {
-    width: 300px;
-    height: 350px;
-    background-color: #0a64a4;
-    color: aliceblue;
-    font-size: 1, 5rem;
-    padding: 10px;
-  }
 
-  .modal {
-    width: 100%;
-  }
-
-  .properties {
-    font-size: 1rem;
-  }
-
-  output {
-    margin-bottom: 5px;
-    &:last-child {
-      margin-bottom: 0;
-    }
-    font-size: 0.5rem;
-  }
-}
 
 .choice {
   bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 2rem;
   padding-top: 12px;
   padding-left: 32px;
   padding-bottom: 0.5rem;
@@ -266,4 +241,44 @@ legend {
 
 .dictionaries:focus + label {
   outline: none;
+}
+
+@media screen and (max-width: 700px) {
+  .modal {
+    width: 80%;
+  }
+  .year {
+    display: none;
+  }
+  .numbersWord {
+    font-size: 1rem;
+  }
+ 
+}
+
+@media screen and (max-width: 410px) {
+  .memory-card {
+    width: 300px;
+    height: 350px;
+    background-color: #0a64a4;
+    color: aliceblue;
+    font-size: 1, 5rem;
+    padding: 10px;
+  }
+
+  .modal {
+    width: 100%;
+  }
+
+  .properties {
+    font-size: 1rem;
+  }
+
+  output {
+    margin-bottom: 5px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    font-size: 0.5rem;
+  }
 }
