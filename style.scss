@@ -99,6 +99,10 @@ button {
   bottom: 1rem;
   left: 1rem;
   width: 10px;
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
 }
 
 .properties {
@@ -152,6 +156,19 @@ button {
   z-index: 50;
   &:hover {
     cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+
+.rules {
+  display: block;
+  position: absolute;
+  bottom: 5rem;
+  right: 1rem;
+  z-index: 50;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
   }
 }
 
@@ -176,18 +193,9 @@ button {
   left: 5rem;
 }
 
-@media screen and (max-width: 700px) {
-  .modal {
-    width: 80%;
-  }
-  .year {
-    display: none;
-  }
-  .numbersWord {
-    font-size: 1rem;
-  }
+label {
+  color: #ffdb73;
 }
-
 
 
 .choice {
@@ -224,6 +232,7 @@ legend {
   font-weight: bold;
   font-size: 1rem;
   color: aliceblue;
+  margin-left: -2rem;
 }
 
 .poll-option {
@@ -242,6 +251,8 @@ legend {
 .dictionaries:focus + label {
   outline: none;
 }
+
+
 
 @media screen and (max-width: 700px) {
   .modal {
@@ -280,5 +291,15 @@ legend {
       margin-bottom: 0;
     }
     font-size: 0.5rem;
+  }
+
+  button {
+    width: 120px;
+    height: 45px;
+   
+  }
+
+  .speak {
+   padding: 0.5rem;
   }
 }

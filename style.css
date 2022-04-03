@@ -128,6 +128,12 @@ button:hover {
   width: 10px;
 }
 
+.github:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
 .properties {
   background-color: #0a64a4;
   display: -webkit-box;
@@ -194,6 +200,22 @@ button:hover {
 
 .setting:hover {
   cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.rules {
+  display: block;
+  position: absolute;
+  bottom: 5rem;
+  right: 1rem;
+  z-index: 50;
+}
+
+.rules:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .overlay {
@@ -217,16 +239,8 @@ button:hover {
   left: 5rem;
 }
 
-@media screen and (max-width: 700px) {
-  .modal {
-    width: 80%;
-  }
-  .year {
-    display: none;
-  }
-  .numbersWord {
-    font-size: 1rem;
-  }
+label {
+  color: #ffdb73;
 }
 
 .choice {
@@ -263,6 +277,7 @@ legend {
   font-weight: bold;
   font-size: 1rem;
   color: aliceblue;
+  margin-left: -2rem;
 }
 
 .poll-option {
@@ -315,6 +330,13 @@ legend {
   }
   output:last-child {
     margin-bottom: 0;
+  }
+  button {
+    width: 120px;
+    height: 45px;
+  }
+  .speak {
+    padding: 0.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

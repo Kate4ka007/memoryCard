@@ -962,8 +962,8 @@ const verbsIregul = [
   ['flee,	fled,	fled', '	бежать, спасаться бегством	 '],
   ['fling,	flung,	flung	', '	кидать, бросать	 '],
   ['fly,	flew,	flown	', '	летать	 '],
-  ['forbid,,	forbade,	forbidden', '	запрещать	 '],
-  ['forget,	forgot,	forgotten	', '	забывать	 '],
+  ['forbid,	forbade,	forbidden', '	запрещать	 '],
+  ['forget,	forgot,	forgotten', '	забывать	 '],
   ['forgive,	forgave,	forgiven	', '	прощать	 '],
   ['forsake,	forsook,	forsaken	', '	бросать; оставлять; отказываться	 '],
   ['freeze,	froze,	frozen	', '	замерзать, замораживать	 '],
@@ -997,8 +997,8 @@ const verbsIregul = [
   ['light,	lighted, lighted', '	зажигать, освещать	 '],
   ['lose,	lost,	lost', '	терять	 '],
   ['make,	made,	made', '	делать, заставлять	 '],
-  ['mean,	meant	meant', '	значить, подразумевать	 '],
-  ['meet,	met	met'	, 'встречать'],
+  ['mean,	meant,	meant', '	значить, подразумевать	 '],
+  ['meet,	met,	met'	, 'встречать'],
   ['mow,	mowed,	mowed', '	косить (газон)'],
   ['pay,	paid,	paid', '	платить	 '],
   ['put,	put,	put', '	класть	 '],
@@ -1023,16 +1023,16 @@ const verbsIregul = [
   ['shoot,	shot,	shot	', '	стрелять	 '],
   ['show,	showed,	shown	', '	показывать	 '],
   ['shrink,	shrank,	shrunk	', '	сморщиваться, сокращаться	 '],
-  ['shut,	shut,	shut', '	закрывать	 '],
+  ['shut,	shut,	shut', 'закрывать	 '],
   ['sing,	sang,	sung', '	петь	 '],
   ['sink,	sunk, sunk', '	погружаться, тонуть	 '],
   ['sit,	sat,	sat', '	сидеть	 '],
   ['slay,	slew,	slain	', '	убить жестоким способом	 '],
-  ['sleep,	slept,	slept	', '	спать	 '],
+  ['sleep,	slept,	slept	', 'спать	 '],
   ['slide,	slid,	slid', '	скользить	 '],
   ['sling,	slung,	slung	', '	швырять, кидать; вешать через плечо	 '],
   ['slink,	slunk,	slunk	', '	уйти незаметно, ускользнуть	 '],
-  ['slit	slit,	slit', '	разрезать вдоль, расщеплять	 '],
+  ['slit,	slit,	slit', '	разрезать вдоль, расщеплять	 '],
   ['smell,	smelt, smelt', '	пахнуть, нюхать	 '],
   ['speak,	spoke,	spoken', '	говорить	 '],
   ['speed,	sped,	sped', '	спешить, ускорять	 '],
@@ -1043,10 +1043,10 @@ const verbsIregul = [
   ['spit,	spat,	spat', '	плевать	 '],
   ['split,	split,	split	', '	раскалывать (-ся)	 '],
   ['spoil,	spoiled, spoiled', '	портить, баловать	 '],
-  ['spread,	spread,	spread	', '	распространять (-ся)	 '],
-  ['spring,	sprang,	sprung	', '	возникать, пружинить, прорастать	 '],
+  ['spread,	spread,	spread', '	распространять (-ся)	 '],
+  ['spring,	sprang,	sprung', '	возникать, пружинить, прорастать	 '],
   ['stand,	stood,	stood	', '	стоять	 '],
-  ['steal,	stole,	stolen	', '	красть	 '],
+  ['steal,	stole,	stolen', '	красть	 '],
   ['stick,	stuck,	stuck	', '	приклеивать (-ся)	 '],
   ['sting,	stung,	stung	', '	жалить	 '],
   ['stink,	stunk, stunk', '	вонять, смердеть '],
@@ -1070,7 +1070,7 @@ const verbsIregul = [
   ['understand,	understood,	understood', 'понимать'],
   ['undertake,	undertook,	undertaken', '	предпринять; обязываться	 '],
   ['wake,	woke,  woken', 'будить, просыпаться	 '],
-  ['wear,	wore,	worn	', 'носить (одежду), быть одетым в'],
+  ['wear,	wore,	worn', 'носить (одежду), быть одетым в'],
   ['weave,	wove,	woven', 'ткать; выплетать '],
   ['weep,	wept,	wept', 'плакать '],
   ['wet,	wet,	wet', '	мочиться, писать (в постель)	 '],
@@ -1106,7 +1106,7 @@ for(let dictionary of dictionaries){
      wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
      wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;  
        
-     } else if( dictionary.dataset.learn === 'verbsIregul'){
+     } else if( dictionary.dataset.learn === 'verbsIrregul'){
       wordList =  verbsIregul;
       count = 0;
       numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
