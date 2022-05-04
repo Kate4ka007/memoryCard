@@ -54,6 +54,21 @@
       }
   }
 
+  .table_3 {
+    width: 400px;
+    height: 579px;
+    margin: 5px auto;
+    content: "";
+    background-image: url(./tab3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    @media screen and (max-width: 424px) {
+        width: 300px;
+        height: 431px;
+          
+      }
+  }
+
   .back {
       position: fixed;
       top: 1rem;
