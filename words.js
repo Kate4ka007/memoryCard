@@ -393,9 +393,7 @@ const wordL = [
   ['Carelessly', 'Беспечно'], ['Nevertheless', 'Тем не менее']
 ]
 
-
-
-///////////
+//
 const frasVerbs = [
   ['add on', 'прибавлять'],
   ['add up', 'складывать'],
@@ -447,349 +445,341 @@ const frasVerbs = [
   ['buy in', 'закупать'],
   ['buy into', 'входить в долю'],
   ['buy off', 'подкупать'],
-  ['buy out', 'выкупать'],
+  ['buy out', 'выкупать долю'],
   ['buy up', 'скупать'],
   ['buzz off', 'отваливать'],
-  ['call at', 'останавливаться в'],
+  ['call at', 'приходить с визитом; приходить в гости; останавливаться в'],
   ['call back', 'заходить опять, перезванивать'],
   ['call for', 'призывать к'],
   ['call off', 'отменять'],
-  ['call on', 'заходить к'],
+  ['call on', 'призывать, навещать, апеллировать, звонить по телефону'],
   ['call out', 'кричать'],
   ['carry on', 'продолжать'],
   ['carry out', 'кричать'],
   ['cast aside', 'отвергать'],
   ['catch on', 'приживаться'],
   ['catch up', 'нагонять'],
-  ['catch up with', 'догнать кого-либо'],
-  ['chance on', 'случайно наткнуться на'],
+  ['catch up with', 'догнать кого-либо'],  
   ['chase up', 'напоминать'],
   ['chat up', 'заигрывать'],
   ['check in', 'регистрироваться'],
   ['check off', 'отмечать'],
   ['check out', 'выписываться'],
-  ['check up', 'наводить справки'],
+  ['check up on', 'наводить справки'],
   ['cheer up', 'ободрять'],
   ['chill out', 'кайфовать'],
-  ['chip in', 'встревать'],
-  ['clear off', 'убираться'],
-  ['climb down', 'уступать'],
-  ['close in', 'опускаться'],
+  ['chip in', 'вмешиваться, принимать участие'],
+  ['clear off', 'убираться (убирайся отсюда)'],
+  ['climb down', 'слезать, уступать, отступать'],
+  ['to close in on something', 'становиться ближе к'],
   ['close off', 'огораживать'],
   ['come across', 'наталкиваться'],
   ['come along', 'продвигаться'],
-  ['come apart', 'разваливаться'],
-  ['come by', 'доставать'],
+  ['come apart', 'разваливаться'],  
   ['come forward', 'вызываться'],
-  ['come in for', 'подвергаться'],
   ['come off', 'отрываться'],
   ['come on', 'продвигаться'],
-  ['come round', 'приходить в себя'],
-  ['come through', 'пережить'],
-  ['come up against', 'наталкиваться на'],
+  ['come around', 'приходить в себя'],
+  ['come through', 'проникать, перенести, проходить внутрь, проходить насквозь'], 
+  ['come up against', 'сталкиваться с; конфликтовать;'], 
   ['come up with', 'придумывать'],
-  ['cool down', 'остудить пыл'],
-  ['count on', 'рассчитывать на'],
-  ['count up', 'подсчитывать'],
-  ['cover up', 'прикрывать, покрывать кого-либо'],
-  ['crack down on', 'расправляться с'],
-  ['crack up', 'лопаться от смеха'],
-  ['cross out', 'вычеркивать'],
-  ['cry off', 'отказываться'],
-  ['cut off', 'отключать'],
-  ['cut out', 'отключить'],
-  ['deal in', 'торговать'],
-  ['die away', 'замирать'],
-  ['die down', 'угасать'],
-  ['dig into', 'докапываться'],
-  ['do away with', 'покончить с'],
-  ['do up', 'завязывать, застегивать'],
-  ['do without', 'обходиться без'],
-  ['double back', 'разворачиваться и идти назад'],
-  ['double up', 'сгибаться пополам'],
-  ['draw back', 'отпрянуть'],
-  ['draw in', 'подъезжать'],
-  ['draw on', 'использовать'],
-  ['draw out', 'растягивать'],
-  ['draw up', 'придвигать'],
-  ['dream up', 'выдумывать'],
-  ['dress up', 'наряжаться'],
-  ['drink in', 'упиваться'],
-  ['drive off', 'отбрасывать'],
-  ['drive out', 'вытеснять'],
-  ['drop in', 'заглядывать к кому-либо'],
-  ['drum up', 'призывать'],
-  ['dwell on', 'задерживаться на'],
-  ['ease off', 'становиться тише, замедляться'],
-  ['eat away', 'разъедать'],
-  ['eat out', 'есть в ресторане'],
-  ['enter upon', 'начинать'],
-  ['explain away', 'находить оправдание'],
-  ['fade in', 'постепенно увеличивать, усиливать'],
-  ['fade out', 'постепенно уменьшать, ослаблять'],
-  ['fall apart', 'разваливаться по частям'],
-  ['fall back on', 'прибегать к'],
-  ['fall behind', 'отставать'],
-  ['fall for', 'влюбляться в'],
-  ['fall in with', 'соглашаться с'],
-  ['fasten on', 'сосредотачиваться на'],
-  ['feel about', 'искать на ощупь'],
-  ['fetch up', 'оказаться'],
-  ['fiddle with', 'вертеть на руках'],
-  ['fight back', 'защищаться, сдерживать натиск'],
-  ['fight down', 'подавлять'],
-  ['figure out', 'вычислять понимать'],
-  ['fill in', 'пломбировать зуб'],
-  ['filter in', 'просачиваться'],
-  ['find out', 'узнавать, разоблачать'],
-  ['finish up', 'доедать, допивать'],
-  ['fish out', 'выуживать'],
-  ['fit in', 'вписываться'],
-  ['fix up', 'устраивать'],
-  ['flick through', 'просматривать'],
-  ['float around', 'носиться в воздухе'],
-  ['flush out', 'спугнуть'],
-  ['follow out', 'приводить в исполнение'],
-  ['follow up', 'расследовать'],
-  ['fool about', 'валять дурака'],
-  ['force back', 'отражать натиск'],
-  ['forge ahead', 'вырываться вперед'],
-  ['fork out', 'выкладывать'],
-  ['frown on', 'смотреть с неодобрением'],
-  ['fuss over', 'трястись над'],
-  ['gasp out', 'выпаливать'],
-  ['get about', 'распространяться'],
-  ['get across', 'объяснять'],
-  ['get along', 'ладить'],
-  ['get at', 'придираться'],
-  ['get away', 'уходить'],
-  ['get away with', 'избежать наказания'],
-  ['get by', 'проходить'],
-  ['get off', 'сходить с транспорта'],
-  ['get on', 'садиться в транспорт'],
-  ['get on to', 'переходить к'],
-  ['get out of', 'отделываться от'],
-  ['get over', 'преодолевать'],
-  ['get round to', 'собираться сделать что-либо'],
-  ['get through', 'дозвониться, прорваться'],
-  ['get up', 'подниматься, вставать с постели'],
-  ['get up to', 'заниматься'],
-  ['give in', 'подчиниться'],
-  ['give off', 'дымить'],
-  ['give up', 'отказываться, сдаваться'],
-  ['go about', 'прохаживаться'],
-  ['go ahead', 'продвигаться'],
-  ['go back on', 'не сдерживать'],
-  ['go for', 'добиваться'],
-  ['go in for', 'принимать участие'],
-  ['go on', 'продолжать'],
-  ['go on at', 'приставать к'],
-  ['go through with', 'осуществлять'],
-  ['go with', 'соответствовать'],
-  ['go without', 'оставаться без'],
-  ['grow apart', 'отдаляться друг от друга'],
-  ['grow up', 'взрослеть'],
-  ['hang about', 'слоняться'],
-  ['hang on', 'подождать'],
-  ['hang up', 'вешать трубку'],
-  ['happen on', 'натыкаться на'],
-  ['head for', 'направляться к'],
-  ['head off', 'отводить'],
-  ['hit on', 'отыскивать'],
-  ['hit out at', 'набрасываться'],
-  ['hold back', 'придерживать'],
-  ['hold on', 'держаться ждать'],
-  ['hold on to', 'держаться за'],
-  ['hold out', 'протягивать'],
-  ['hold over', 'откладывать'],
-  ['hold up', 'поднимать поддерживать'],
-  ['hurry up', 'торопить'],
-  ['hush up', 'умалчивать'],
-  ['inquire into', 'расследовать'],
-  ['iron out', 'улаживать'],
-  ['jog along', 'медленно продвигаться'],
-  ['jump about', 'суетиться'],
-  ['jump at', 'ухватываться за'],
-  ['keep away from', 'держаться подальше от'],
-  ['keep down', 'сдерживать'],
-  ['keep in', 'держать дома'],
-  ['keep off', 'обходить избегать'],
-  ['keep out', 'не впускать'],
-  ['keep up', 'поддерживать'],
-  ['knock about', 'околачиваться'],
-  ['knock off', 'закругляться'],
-  ['knock out', 'оглушать'],
-  ['ladle out', 'раздавать направо и налево'],
-  ['land up', 'очутиться'],
-  ['launch into', 'пускаться в'],
-  ['lay in', 'запасать'],
-  ['lay into', 'набрасываться на'],
-  ['lay off', 'увольнять'],
-  ['lay on', 'устраивать'],
-  ['lay out', 'раскладывать'],
-  ['lead off', 'отходить от'],
-  ['lead on', 'водить за нос'],
-  ['leave behind', 'забыть что-либо'],
-  ['leave off', 'не включать'],
-  ['leave on', 'не снимать'],
-  ['leave out', 'пропускать оставлять без внимания'],
-  ['let on', 'проговариваться'],
-  ['let out', 'выпускать'],
-  ['let up', 'переставать'],
-  ['lie about', 'валяться'],
-  ['lie back', 'откидываться'],
-  ['lie up', 'скрываться'],
-  ['live down', 'заглаживать'],
-  ['live up to', 'оправдывать, доходить до какого-либо уровня'],
-  ['lock away', 'заключать под стражу'],
-  ['log in', 'входить в систему'],
-  ['log into', 'входить в'],
-  ['log off', 'выходить из системы'],
-  ['look after', 'заботиться о'],
-  ['look around', 'осматриваться'],
-  ['look down on', 'смотреть свысока на'],
-  ['look for', 'искать'],
-  ['look forward to', 'ждать чего-либо с нетерпением'],
-  ['look into', 'расследовать'],
-  ['look on', 'наблюдать'],
-  ['look out for', 'остерегаться'],
-  ['look through', 'просматривать'],
-  ['look up', 'находить информацию'],
-  ['look up to', 'почитать'],
-  ['make for', 'направляться к'],
-  ['make off', 'скрываться'],
-  ['make out', 'различать'],
-  ['make up', 'составлять делать макияж'],
-  ['make up for', 'восполнять'],
-  ['mark down', 'снижать, уценивать'],
-  ['mark off', 'отмечать'],
-  ['mark out', 'размечать, выделять'],
-  ['mark up', 'повышать, добавлять стоимость'],
-  ['measure up', 'оправдывать'],
-  ['mix up', 'путать'],
-  ['mount up', 'накапливаться'],
-  ['muddle along', 'справляться, кое-как'],
-  ['muddle through', 'выкарабкиваться'],
-  ['nod off', 'задремать'],
-  ['pack off', 'отправлять'],
-  ['pass away', 'на'],
-  ['pass by', 'проходить, проезжать мимо'],
-  ['pass out', 'терять сознание'],
-  ['pass up', 'упускать'],
-  ['patch up', 'улаживать'],
-  ['pick at', 'ковырять'],
-  ['pick off', 'методично сбивать, отстреливать'],
-  ['pick on', 'придираться к'],
-  ['pick out', 'разглядеть'],
-  ['play down', 'не заострять внимание на'],
-  ['play up', 'барахлить'],
-  ['plug in', 'включать в розетку'],
-  ['polish off', 'покончить с'],
-  ['pop in', 'заглядывать, заскакивать к кому-нибудь'],
-  ['pop out', 'выскакивать'],
-  ['pop up', 'вылезать'],
-  ['pour into', 'устремляться в'],
-  ['press ahead', 'приступать к делу'],
-  ['press on', 'продолжать'],
-  ['pull about', 'трепать'],
-  ['pull up', 'подтягивать'],
-  ['push in', 'влезать'],
-  ['push off', 'убираться'],
-  ['push on', 'двигаться вперед'],
-  ['push over', 'опрокидывать'],
-  ['push up', 'повышать'],
-  ['put across', 'объяснять'],
-  ['put by', 'откладывать'],
-  ['put forth', 'объявлять'],
-  ['put forward', 'выдвигать, переводить вперед'],
-  ['put in for', 'подавать заявление на'],
-  ['put on', 'надевать'],
-  ['put out', 'тушить, выключать'],
-  ['put through', 'соединять, выполнять соединение'],
-  ['put up with', 'терпеть, мириться с'],
-  ['reach out', 'протягивать'],
-  ['reflect on', 'бросать тень на'],
-  ['root about', 'рыться'],
-  ['root for', 'болеть за'],
-  ['root out', 'откопать'],
-  ['round off', 'завершать'],
-  ['round up', 'округлять'],
-  ['rule out', 'исключать'],
-  ['run across', 'натыкаться на'],
-  ['run down', 'сокращать, сбивать'],
-  ['run into', 'сталкиваться с'],
-  ['run off', 'сбегать, убегать'],
-  ['run out', 'истекать, заканчиваться'],
-  ['run over', 'задавить'],
-  ['rush through', 'делать в спешке'],
-  ['score out', 'вычеркивать'],
-  ['scrape together', 'наскребать'],
-  ['screw up', 'комкать, портачить'],
-  ['see about', 'заниматься'],
-  ['see off', 'провожать'],
-  ['see through', 'доводить до конца'],
-  ['see to', 'позаботиться о'],
-  ['seize up', 'глохнуть'],
-  ['send for', 'заказывать'],
-  ['send in', 'подавать заявление о'],
-  ['send up', 'запускать'],
-  ['serve out', 'раскладывать'],
-  ['set about', 'приступать к'],
-  ['set back', 'задерживать'],
-  ['set off', 'отправляться'],
-  ['set up', 'учреждать'],
-  ['shoot down', 'сбивать'],
-  ['shoot in', 'стремглав вбегать'],
-  ['shoot out', 'стремглав выбегать'],
-  ['shoot up', 'подскакивать'],
-  ['shop around', 'прицениваться'],
-  ['shout down', 'заглушать криками'],
-  ['show in', 'проводить внутрь'],
-  ['show off', 'отмахиваться от'],
-  ['show out', 'провожать к выходу'],
-  ['show up', 'виднеться появляться'],
-  ['shrug off', 'отмахиваться от'],
-  ['shut off', 'отключать'],
-  ['shut out', 'не пропускать'],
-  ['shut up', 'заткнуться'],
-  ['sign away', 'передавать'],
-  ['sign in', 'регистрироваться'],
-  ['sign off', 'заканчивать'],
-  ['sign out', 'выписываться'],
-  ['sign up', 'наниматься, подписаться'],
-  ['skate around', 'обходить'],
-  ['skate over', 'игнорировать'],
-  ['sleep around', 'спать с кем попало'],
-  ['sleep in', 'просыпать, отсыпаться'],
-  ['slip up', 'ошибаться'], ['smooth over', 'улаживать дела'],
-  ['sound off', 'высказаться о'],
-  ['square up', 'поквитаться с кем-либо'],
-  ['stamp out', 'затаптывать'], ['stand by', 'быть на готове'],
-  ['stand down', 'уступать место'], ['stand for', 'обозначать, представлять'],
-  ['stand in for', 'замещать'], ['stand up for', 'отстаивать'],
-  ['stand up to', 'выдерживать'], ['stem from', 'происходить от'],
-  ['stick up for', 'заступаться за'],
-  ['stir up', 'вызывать'], ['stop by', 'заходить'],
-  ['stop up', 'заделывать'], ['strike out', 'вычеркивать'],
-  ['take after', 'пойти в кого-либо'],
-  ['take down', 'снимать, убирать'],
-  ['take in', 'включать в себя'], ['take off', 'взлетать'], ['take on', 'брать на себя'],
-  ['take over', 'принимать руководство'],
-  ['take to', 'пристраститься к'], ['take up', 'заняться, подхватить'],
-  ['tear along', 'нестись'], ['tell off', 'отчитывать кого-либо'],
-  ['tell on', 'жаловаться на'], ['think up', 'придумывать'],
-  ['throw up', 'тошнить со рвотой'], ['touch on', 'затрагивать'],
-  ['touch up', 'подкрашивать'], ['try on', 'мерить, примерить'],
-  ['tuck away', 'припрятывать'], ['tuck in', 'заправлять, запихивать'],
-  ['tuck up', 'укрывать'], ['turn down', 'отклонять'],
-  ['turn in', 'сворачивать'], ['turn off', 'выключать'],
-  ['turn on', 'включать'], ['turn up', 'объявляться'],
-  ['wait on', 'обслуживать'], ['walk out on', 'бросать'],
-  ['wash up', 'мыть посуду'], ['wear off', 'постепенно проходить'],
-  ['wear on', 'тянуться'], ['work out', 'удаваться, срабатывать'],
-  ['write off', 'списывать, аннулировать'], ['write up', 'приводить в порядок']
-]
-////////////////////////////////////////////////////////
+    ['cool down', 'остудить пыл'],
+    ['count on', 'рассчитывать на'],
+    ['cover up', 'прикрывать, покрывать кого-либо'],
+    ['crack down on', 'расправляться с'],
+    ['crack up', 'лопаться от смеха'],
+    ['cross out', 'вычеркивать'],
+    ['cut off', 'отключать'],
+    ['cut out', 'вырезать, выключать, выкраивать, вытеснять'], 
+    ['deal in', 'торговать'],
+    ['die away', 'замирать(о звуке)'],
+    ['die down', 'угасать'],
+    ['dig into', 'зарываться; закапывать'], 
+    ['do away with', 'покончить с'],
+    ['do up', 'завязывать, застегивать'],
+    ['do without', 'обходиться без'],
+    ['double back', 'возвращаться по собственным следам'],
+    ['double up', 'сгибаться пополам'], 
+    ['draw in', 'вовлекать, сокращаться(день), близиться к концу'], 
+    ['draw on', 'использовать'],
+    ['draw out', 'растягивать'],
+    ['draw up', 'составлять/набрасывать (план и т. д.)'], 
+    ['dream up', 'выдумывать'],
+    ['dress up', 'наряжаться'],
+    ['drink in', 'упиваться'],
+    ['drive off', 'отбрасывать'],
+    ['drive out', 'вытеснять'],
+    ['drop in', 'заглядывать к кому-либо'],
+    ['drum up', 'призывать'],
+    ['dwell on', 'зацикливаться на'], 
+    ['ease off', 'становиться тише, замедляться'],
+    ['eat away at', 'разъедать'],
+    ['eat out', 'есть в ресторане'],
+    ['explain away', 'находить оправдание'],
+    ['fade out', 'постепенно уменьшать, ослаблять'],
+    ['fall apart', 'разваливаться по частям'],
+    ['fall back on', 'прибегать к'],
+    ['fall behind', 'отставать'],
+    ['fall for', 'влюбляться в'],
+    ['fall in with', 'соглашаться с'],
+    ['fasten on', 'сосредотачиваться на'],
+    ['feel about', 'искать на ощупь'],
+    ['fetch up', 'оказаться'],
+    ['fiddle with', 'вертеть на руках'],
+    ['fight back', 'защищаться, сдерживать натиск'],
+    ['fight down', 'подавлять'],
+    ['figure out', 'вычислять понимать'],
+    ['fill in', 'пломбировать зуб'],
+    ['filter in', 'просачиваться'],
+    ['find out', 'узнавать, разоблачать'],
+    ['finish up', 'доедать, допивать'],
+    ['fish out', 'выуживать'],
+    ['fit in', 'вписываться'],
+    ['fix up', 'устраивать'],
+    ['flick through', 'просматривать'],
+    ['float around', 'носиться в воздухе'],
+    ['flush out', 'спугнуть'],
+    ['follow out', 'приводить в исполнение'],
+    ['follow up', 'расследовать'],
+    ['fool about', 'валять дурака'],
+    ['force back', 'отражать натиск'],
+    ['forge ahead', 'вырываться вперед'],
+    ['fork out', 'выкладывать'],
+    ['frown on', 'смотреть с неодобрением'],
+    ['fuss over', 'трястись над'],
+    ['gasp out', 'выпаливать'],
+    ['get about', 'распространяться'],
+    ['get across', 'объяснять'],
+    ['get along', 'ладить'],
+    ['get at', 'придираться'],
+    ['get away', 'уходить'],
+    ['get away with', 'избежать наказания'],
+    ['get by', 'проходить'],
+    ['get off', 'сходить с транспорта'],
+    ['get on', 'садиться в транспорт'],
+    ['get on to', 'переходить к'],
+    ['get out of', 'отделываться от'],
+    ['get over', 'преодолевать'],
+    ['get round to', 'собираться сделать что-либо'],
+    ['get through', 'дозвониться, прорваться'],
+    ['get up', 'подниматься, вставать с постели'],
+    ['get up to', 'заниматься'],
+    ['give in', 'подчиниться'],
+    ['give off', 'дымить'],
+    ['give up', 'отказываться, сдаваться'],
+    ['go about', 'прохаживаться'],
+    ['go ahead', 'продвигаться'],
+    ['go back on', 'не сдерживать'],
+    ['go for', 'добиваться'],
+    ['go in for', 'принимать участие'],
+    ['go on', 'продолжать'],
+    ['go on at', 'приставать к'],
+    ['go through with', 'осуществлять'],
+    ['go with', 'соответствовать'],
+    ['go without', 'оставаться без'],
+    ['grow apart', 'отдаляться друг от друга'],
+    ['grow up', 'взрослеть'],
+    ['hang about', 'слоняться'],
+    ['hang on', 'подождать'],
+    ['hang up', 'вешать трубку'],
+    ['happen on', 'натыкаться на'],
+    ['head for', 'направляться к'],
+    ['head off', 'отводить'],
+    ['hit on', 'отыскивать'],
+    ['hit out at', 'набрасываться'],
+    ['hold back', 'придерживать'],
+    ['hold on', 'держаться ждать'],
+    ['hold on to', 'держаться за'],
+    ['hold out', 'протягивать'],
+    ['hold over', 'откладывать'],
+    ['hold up', 'поднимать поддерживать'],
+    ['hurry up', 'торопить'],
+    ['hush up', 'умалчивать'],
+    ['inquire into', 'расследовать'],
+    ['iron out', 'улаживать'],
+    ['jog along', 'медленно продвигаться'],
+    ['jump about', 'суетиться'],
+    ['jump at', 'ухватываться за'],
+    ['keep away from', 'держаться подальше от'],
+    ['keep down', 'сдерживать'],
+    ['keep in', 'держать дома'],
+    ['keep off', 'обходить избегать'],
+    ['keep out', 'не впускать'],
+    ['keep up', 'поддерживать'],
+    ['knock about', 'околачиваться'],
+    ['knock off', 'закругляться'],
+    ['knock out', 'оглушать'],
+    ['ladle out', 'раздавать направо и налево'],
+    ['land up', 'очутиться'],
+    ['launch into', 'пускаться в'],
+    ['lay in', 'запасать'],
+    ['lay into', 'набрасываться на'],
+    ['lay off', 'увольнять'],
+    ['lay on', 'устраивать'],
+    ['lay out', 'раскладывать'],
+    ['lead off', 'отходить от'],
+    ['lead on', 'водить за нос'],
+    ['leave behind', 'забыть что-либо'],
+    ['leave off', 'не включать'],
+    ['leave on', 'не снимать'],
+    ['leave out', 'пропускать оставлять без внимания'],
+    ['let on', 'проговариваться'],
+    ['let out', 'выпускать'],
+    ['let up', 'переставать'],
+    ['lie about', 'валяться'],
+    ['lie back', 'откидываться'],
+    ['lie up', 'скрываться'],
+    ['live down', 'заглаживать'],
+    ['live up to', 'оправдывать, доходить до какого-либо уровня'],
+    ['lock away', 'заключать под стражу'],
+    ['log in', 'входить в систему'],
+    ['log into', 'входить в'],
+    ['log off', 'выходить из системы'],
+    ['look after', 'заботиться о'],
+    ['look around', 'осматриваться'],
+    ['look down on', 'смотреть свысока на'],
+    ['look for', 'искать'],
+    ['look forward to', 'ждать чего-либо с нетерпением'],
+    ['look into', 'расследовать'],
+    ['look on', 'наблюдать'],
+    ['look out for', 'остерегаться'],
+    ['look through', 'просматривать'],
+    ['look up', 'находить информацию'],
+    ['look up to', 'почитать'],
+    ['make for', 'направляться к'],
+    ['make off', 'скрываться'],
+    ['make out', 'различать'],
+    ['make up', 'составлять делать макияж'],
+    ['make up for', 'восполнять'],
+    ['mark down', 'снижать, уценивать'],
+    ['mark off', 'отмечать'],
+    ['mark out', 'размечать, выделять'],
+    ['mark up', 'повышать, добавлять стоимость'],
+    ['measure up', 'оправдывать'],
+    ['mix up', 'путать'],
+    ['mount up', 'накапливаться'],
+    ['muddle along', 'справляться, кое-как'],
+    ['muddle through', 'выкарабкиваться'],
+    ['nod off', 'задремать'],
+    ['pack off', 'отправлять'],
+    ['pass away', 'на'],
+    ['pass by', 'проходить, проезжать мимо'],
+    ['pass out', 'терять сознание'],
+    ['pass up', 'упускать'],
+    ['patch up', 'улаживать'],
+    ['pick at', 'ковырять'],
+    ['pick off', 'методично сбивать, отстреливать'],
+    ['pick on', 'придираться к'],
+    ['pick out', 'разглядеть'],
+    ['play down', 'не заострять внимание на'],
+    ['play up', 'барахлить'],
+    ['plug in', 'включать в розетку'],
+    ['polish off', 'покончить с'],
+    ['pop in', 'заглядывать, заскакивать к кому-нибудь'],
+    ['pop out', 'выскакивать'],
+    ['pop up', 'вылезать'],
+    ['pour into', 'устремляться в'],
+    ['press ahead', 'приступать к делу'],
+    ['press on', 'продолжать'],
+    ['pull about', 'трепать'],
+    ['pull up', 'подтягивать'],
+    ['push in', 'влезать'],
+    ['push off', 'убираться'],
+    ['push on', 'двигаться вперед'],
+    ['push over', 'опрокидывать'],
+    ['push up', 'повышать'],
+    ['put across', 'объяснять'],
+    ['put by', 'откладывать'],
+    ['put forth', 'объявлять'],
+    ['put forward', 'выдвигать, переводить вперед'],
+    ['put in for', 'подавать заявление на'],
+    ['put on', 'надевать'],
+    ['put out', 'тушить, выключать'],
+    ['put through', 'соединять, выполнять соединение'],
+    ['put up with', 'терпеть, мириться с'],
+    ['reach out', 'протягивать'],
+    ['reflect on', 'бросать тень на'],
+    ['root about', 'рыться'],
+    ['root for', 'болеть за'],
+    ['root out', 'откопать'],
+    ['round off', 'завершать'],
+    ['round up', 'округлять'],
+    ['rule out', 'исключать'],
+    ['run across', 'натыкаться на'],
+    ['run down', 'сокращать, сбивать'],
+    ['run into', 'сталкиваться с'],
+    ['run off', 'сбегать, убегать'],
+    ['run out', 'истекать, заканчиваться'],
+    ['run over', 'задавить'],
+    ['rush through', 'делать в спешке'],
+    ['score out', 'вычеркивать'],
+    ['scrape together', 'наскребать'],
+    ['screw up', 'комкать, портачить'],
+    ['see about', 'заниматься'],
+    ['see off', 'провожать'],
+    ['see through', 'доводить до конца'],
+    ['see to', 'позаботиться о'],
+    ['seize up', 'глохнуть'],
+    ['send for', 'заказывать'],
+    ['send in', 'подавать заявление о'],
+    ['send up', 'запускать'],
+    ['serve out', 'раскладывать'],
+    ['set about', 'приступать к'],
+    ['set back', 'задерживать'],
+    ['set off', 'отправляться'],
+    ['set up', 'учреждать'],
+    ['shoot down', 'сбивать'],
+    ['shoot in', 'стремглав вбегать'],
+    ['shoot out', 'стремглав выбегать'],
+    ['shoot up', 'подскакивать'],
+    ['shop around', 'прицениваться'],
+    ['shout down', 'заглушать криками'],
+    ['show in', 'проводить внутрь'],
+    ['show off', 'отмахиваться от'],
+    ['show out', 'провожать к выходу'],
+    ['show up', 'виднеться появляться'],
+    ['shrug off', 'отмахиваться от'],
+    ['shut off', 'отключать'],
+    ['shut out', 'не пропускать'],
+    ['shut up', 'заткнуться'],
+    ['sign away', 'передавать'],
+    ['sign in', 'регистрироваться'],
+    ['sign off', 'заканчивать'],
+    ['sign out', 'выписываться'],
+    ['sign up', 'наниматься, подписаться'],
+    ['skate around', 'обходить'],
+    ['skate over', 'игнорировать'],
+    ['sleep around', 'спать с кем попало'],
+    ['sleep in', 'просыпать, отсыпаться'],
+    ['slip up', 'ошибаться'], ['smooth over', 'улаживать дела'],
+    ['sound off', 'высказаться о'],
+    ['square up', 'поквитаться с кем-либо'],
+    ['stamp out', 'затаптывать'], ['stand by', 'быть на готове'],
+    ['stand down', 'уступать место'], ['stand for', 'обозначать, представлять'],
+    ['stand in for', 'замещать'], ['stand up for', 'отстаивать'],
+    ['stand up to', 'выдерживать'], ['stem from', 'происходить от'],
+    ['stick up for', 'заступаться за'],
+    ['stir up', 'вызывать'], ['stop by', 'заходить'],
+    ['stop up', 'заделывать'], ['strike out', 'вычеркивать'],
+    ['take after', 'пойти в кого-либо'],
+    ['take down', 'снимать, убирать'],
+    ['take in', 'включать в себя'], ['take off', 'взлетать'], ['take on', 'брать на себя'],
+    ['take over', 'принимать руководство'],
+    ['take to', 'пристраститься к'], ['take up', 'заняться, подхватить'],
+    ['tear along', 'нестись'], ['tell off', 'отчитывать кого-либо'],
+    ['tell on', 'жаловаться на'], ['think up', 'придумывать'],
+    ['throw up', 'тошнить со рвотой'], ['touch on', 'затрагивать'],
+    ['touch up', 'подкрашивать'], ['try on', 'мерить, примерить'],
+    ['tuck away', 'припрятывать'], ['tuck in', 'заправлять, запихивать'],
+    ['tuck up', 'укрывать'], ['turn down', 'отклонять'],
+    ['turn in', 'сворачивать'], ['turn off', 'выключать'],
+    ['turn on', 'включать'], ['turn up', 'объявляться'],
+    ['wait on', 'обслуживать'], ['walk out on', 'бросать'],
+    ['wash up', 'мыть посуду'], ['wear off', 'постепенно проходить'],
+    ['wear on', 'тянуться'], ['work out', 'удаваться, срабатывать'],
+    ['write off', 'списывать, аннулировать'], ['write up', 'приводить в порядок']
+  ]
+//
 const phrases = [
   ['How is it going?', 'Как идут дела?'],
   ['How\'s life?', '	Как жизнь?'],
@@ -1077,57 +1067,51 @@ const verbsIregul = [
   ['wind,	winded,	winded', 'вызвать задержку дыхания'],
   ['wring,	wrung,	wrung', 'выжимать '],
   ['write,	wrote,	written', 'писать ']
-
 ]
-
-
 
 let count = 0;
 let wordList = wordL;
-
 let dictionaries = document.querySelectorAll('.dictionaries');
 
-
-for (let dictionary of dictionaries) {
-  dictionary.onchange = function () {
-    if (dictionary.dataset.learn === 'verbs') {
-      wordList = frasVerbs;
-      count = 0;
-      numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
-      wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
-      wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
-
-    } else if (dictionary.dataset.learn === 'phrases') {
-      wordList = phrases;
-      count = 0;
-      numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
-      wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
-      wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
-
-    } else if (dictionary.dataset.learn === 'verbsIrregul') {
-      wordList = verbsIregul;
-      count = 0;
-      numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
-      wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
-      wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
-
-    }
-    else {
-      wordList = wordL;
-      count = 0;
-      numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
-      wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
-      wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
+const setDictionary = () => {
+  for (let dictionary of dictionaries) {
+    dictionary.onchange = function () {
+      if (dictionary.dataset.learn === 'verbs') {
+        wordList = frasVerbs;
+        count = 0;
+        numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
+        wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
+        wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
+  
+      } else if (dictionary.dataset.learn === 'phrases') {
+        wordList = phrases;
+        count = 0;
+        numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
+        wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
+        wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
+  
+      } else if (dictionary.dataset.learn === 'verbsIrregul') {
+        wordList = verbsIregul;
+        count = 0;
+        numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
+        wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
+        wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;  
+      }
+      else {
+        wordList = wordL;
+        count = 0;
+        numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
+        wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
+        wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
+      };
     };
   };
-};
-
-
+}
+setDictionary()
 
 const wordRu = document.querySelector('.word_ru');
 const wordEn = document.querySelector('.word_en');
 const memoryCard = document.querySelector('.memory-card');
-
 
 function translate() {
   wordEn.style.display === 'block' ? wordEn.style.display = 'none' : wordEn.style.display = 'block';
@@ -1135,7 +1119,6 @@ function translate() {
 }
 
 memoryCard.addEventListener('click', translate);
-
 
 const next = document.querySelector('.next');
 const prev = document.querySelector('.prev');
@@ -1148,11 +1131,9 @@ function nextWord() {
   if (count == wordList.length) {
     count = 0;
   }
-
   numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
   wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
   wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
-
 }
 
 function prevWord() {
@@ -1165,21 +1146,14 @@ function prevWord() {
     wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
     wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
     count = wordList.length - 1;
-
   }
   numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
   wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
   wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
-
 }
-
-
 
 next.addEventListener('click', nextWord);
 prev.addEventListener('click', prevWord);
-
-
-
 const textEl = document.getElementById('text');
 const voiceInEl = document.getElementById('voice');
 const pitchInEl = document.getElementById('pitch');
@@ -1199,20 +1173,17 @@ updateVoices();
 window.speechSynthesis.onvoiceschanged = updateVoices;
 
 function updateOutputs() {
-
   pitchOutEl.textContent = pitchInEl.value;
   rateOutEl.textContent = rateInEl.value;
   volumeOutEl.textContent = volumeInEl.value;
 }
 
 function updateVoices() {
-
   window.speechSynthesis.getVoices().forEach(voice => {
     const isAlreadyAdded = [...voiceInEl.options].some(option => option.value === voice.voiceURI);
     if (!isAlreadyAdded) {
       const option = new Option(voice.name, voice.voiceURI, voice.default, voice.default);
       voiceInEl.add(option);
-
     }
   });
 }
@@ -1232,19 +1203,16 @@ function speakText() {
     }
   } else {
     utterance.voice = window.speechSynthesis.getVoices().find(voice => voice.voiceURI === voiceInEl.value);
-
   }
   utterance.pitch = pitchInEl.value;
   utterance.rate = rateInEl.value;
   utterance.volume = volumeInEl.value;
-
   window.speechSynthesis.speak(utterance);
 }
 
 voiceInEl.addEventListener('change', () => {
   localStorage.setItem('voice', voiceInEl.value);
 });
-
 
 const setting = document.querySelector('.setting');
 const properties = document.querySelector('.modal');
@@ -1256,7 +1224,6 @@ setting.addEventListener('click', () => {
   properties.style.display === 'none' ? properties.style.display = 'block' : properties.style.display = 'none';
   overlay.style.display === 'none' ? overlay.style.display = 'block' : overlay.style.display = 'none';
 });
-
 
 close.addEventListener('click', () => {
   properties.style.display = 'none';
