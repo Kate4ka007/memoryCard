@@ -393,9 +393,7 @@ const wordL = [
   ['Carelessly', 'Беспечно'], ['Nevertheless', 'Тем не менее']
 ]
 
-
-
-///////////
+//
 const frasVerbs = [
   ['add on', 'прибавлять'],
   ['add up', 'складывать'],
@@ -447,14 +445,14 @@ const frasVerbs = [
   ['buy in', 'закупать'],
   ['buy into', 'входить в долю'],
   ['buy off', 'подкупать'],
-  ['buy out', 'выкупать'],
+  ['buy out', 'выкупать долю'],
   ['buy up', 'скупать'],
   ['buzz off', 'отваливать'],
-  ['call at', 'останавливаться в'],
+  ['call at', 'приходить с визитом; приходить в гости; останавливаться в'],
   ['call back', 'заходить опять, перезванивать'],
   ['call for', 'призывать к'],
   ['call off', 'отменять'],
-  ['call on', 'заходить к'],
+  ['call on', 'призывать, навещать, апеллировать, звонить по телефону'],
   ['call out', 'кричать'],
   ['carry on', 'продолжать'],
   ['carry out', 'кричать'],
@@ -462,56 +460,50 @@ const frasVerbs = [
   ['catch on', 'приживаться'],
   ['catch up', 'нагонять'],
   ['catch up with', 'догнать кого-либо'],
-  ['chance on', 'случайно наткнуться на'],
   ['chase up', 'напоминать'],
   ['chat up', 'заигрывать'],
   ['check in', 'регистрироваться'],
   ['check off', 'отмечать'],
   ['check out', 'выписываться'],
-  ['check up', 'наводить справки'],
+  ['check up on', 'наводить справки'],
   ['cheer up', 'ободрять'],
   ['chill out', 'кайфовать'],
-  ['chip in', 'встревать'],
-  ['clear off', 'убираться'],
-  ['climb down', 'уступать'],
-  ['close in', 'опускаться'],
+  ['chip in', 'вмешиваться, принимать участие'],
+  ['clear off', 'убираться (убирайся отсюда)'],
+  ['climb down', 'слезать, уступать, отступать'],
+  ['to close in on something', 'становиться ближе к'],
   ['close off', 'огораживать'],
   ['come across', 'наталкиваться'],
   ['come along', 'продвигаться'],
   ['come apart', 'разваливаться'],
-  ['come by', 'доставать'],
   ['come forward', 'вызываться'],
-  ['come in for', 'подвергаться'],
   ['come off', 'отрываться'],
   ['come on', 'продвигаться'],
-  ['come round', 'приходить в себя'],
-  ['come through', 'пережить'],
-  ['come up against', 'наталкиваться на'],
+  ['come around', 'приходить в себя'],
+  ['come through', 'проникать, перенести, проходить внутрь, проходить насквозь'],
+  ['come up against', 'сталкиваться с; конфликтовать;'],
   ['come up with', 'придумывать'],
   ['cool down', 'остудить пыл'],
   ['count on', 'рассчитывать на'],
-  ['count up', 'подсчитывать'],
   ['cover up', 'прикрывать, покрывать кого-либо'],
   ['crack down on', 'расправляться с'],
   ['crack up', 'лопаться от смеха'],
   ['cross out', 'вычеркивать'],
-  ['cry off', 'отказываться'],
   ['cut off', 'отключать'],
-  ['cut out', 'отключить'],
+  ['cut out', 'вырезать, выключать, выкраивать, вытеснять'],
   ['deal in', 'торговать'],
-  ['die away', 'замирать'],
+  ['die away', 'замирать(о звуке)'],
   ['die down', 'угасать'],
-  ['dig into', 'докапываться'],
+  ['dig into', 'зарываться; закапывать'],
   ['do away with', 'покончить с'],
   ['do up', 'завязывать, застегивать'],
   ['do without', 'обходиться без'],
-  ['double back', 'разворачиваться и идти назад'],
+  ['double back', 'возвращаться по собственным следам'],
   ['double up', 'сгибаться пополам'],
-  ['draw back', 'отпрянуть'],
-  ['draw in', 'подъезжать'],
+  ['draw in', 'вовлекать, сокращаться(день), близиться к концу'],
   ['draw on', 'использовать'],
   ['draw out', 'растягивать'],
-  ['draw up', 'придвигать'],
+  ['draw up', 'составлять/набрасывать (план и т. д.)'],
   ['dream up', 'выдумывать'],
   ['dress up', 'наряжаться'],
   ['drink in', 'упиваться'],
@@ -519,24 +511,22 @@ const frasVerbs = [
   ['drive out', 'вытеснять'],
   ['drop in', 'заглядывать к кому-либо'],
   ['drum up', 'призывать'],
-  ['dwell on', 'задерживаться на'],
+  ['dwell on', 'зацикливаться на'],
   ['ease off', 'становиться тише, замедляться'],
-  ['eat away', 'разъедать'],
+  ['eat away at', 'разъедать'],
   ['eat out', 'есть в ресторане'],
-  ['enter upon', 'начинать'],
   ['explain away', 'находить оправдание'],
-  ['fade in', 'постепенно увеличивать, усиливать'],
   ['fade out', 'постепенно уменьшать, ослаблять'],
   ['fall apart', 'разваливаться по частям'],
   ['fall back on', 'прибегать к'],
   ['fall behind', 'отставать'],
   ['fall for', 'влюбляться в'],
-  ['fall in with', 'соглашаться с'],
-  ['fasten on', 'сосредотачиваться на'],
-  ['feel about', 'искать на ощупь'],
-  ['fetch up', 'оказаться'],
+  /* ['fall in with', 'соглашаться с'],*/
+  ['focus on', 'сосредотачиваться на'],
+  /*['feel about', 'искать на ощупь'],*/
+  /* ['fetch up', 'оказаться'],*/ //turn out
   ['fiddle with', 'вертеть на руках'],
-  ['fight back', 'защищаться, сдерживать натиск'],
+  ['fight back', 'мстить'],
   ['fight down', 'подавлять'],
   ['figure out', 'вычислять понимать'],
   ['fill in', 'пломбировать зуб'],
@@ -789,7 +779,7 @@ const frasVerbs = [
   ['wear on', 'тянуться'], ['work out', 'удаваться, срабатывать'],
   ['write off', 'списывать, аннулировать'], ['write up', 'приводить в порядок']
 ]
-////////////////////////////////////////////////////////
+//
 const phrases = [
   ['How is it going?', 'Как идут дела?'],
   ['How\'s life?', '	Как жизнь?'],
@@ -1077,57 +1067,51 @@ const verbsIregul = [
   ['wind,	winded,	winded', 'вызвать задержку дыхания'],
   ['wring,	wrung,	wrung', 'выжимать '],
   ['write,	wrote,	written', 'писать ']
-
 ]
-
-
 
 let count = 0;
 let wordList = wordL;
-
 let dictionaries = document.querySelectorAll('.dictionaries');
 
+const setDictionary = () => {
+  for (let dictionary of dictionaries) {
+    dictionary.onchange = function () {
+      if (dictionary.dataset.learn === 'verbs') {
+        wordList = frasVerbs;
+        count = 0;
+        numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
+        wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
+        wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
 
-for (let dictionary of dictionaries) {
-  dictionary.onchange = function () {
-    if (dictionary.dataset.learn === 'verbs') {
-      wordList = frasVerbs;
-      count = 0;
-      numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
-      wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
-      wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
+      } else if (dictionary.dataset.learn === 'phrases') {
+        wordList = phrases;
+        count = 0;
+        numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
+        wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
+        wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
 
-    } else if (dictionary.dataset.learn === 'phrases') {
-      wordList = phrases;
-      count = 0;
-      numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
-      wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
-      wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
-
-    } else if (dictionary.dataset.learn === 'verbsIrregul') {
-      wordList = verbsIregul;
-      count = 0;
-      numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
-      wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
-      wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
-
-    }
-    else {
-      wordList = wordL;
-      count = 0;
-      numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
-      wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
-      wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
+      } else if (dictionary.dataset.learn === 'verbsIrregul') {
+        wordList = verbsIregul;
+        count = 0;
+        numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
+        wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
+        wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
+      }
+      else {
+        wordList = wordL;
+        count = 0;
+        numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
+        wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
+        wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
+      };
     };
   };
-};
-
-
+}
+setDictionary()
 
 const wordRu = document.querySelector('.word_ru');
 const wordEn = document.querySelector('.word_en');
 const memoryCard = document.querySelector('.memory-card');
-
 
 function translate() {
   wordEn.style.display === 'block' ? wordEn.style.display = 'none' : wordEn.style.display = 'block';
@@ -1135,7 +1119,6 @@ function translate() {
 }
 
 memoryCard.addEventListener('click', translate);
-
 
 const next = document.querySelector('.next');
 const prev = document.querySelector('.prev');
@@ -1148,11 +1131,9 @@ function nextWord() {
   if (count == wordList.length) {
     count = 0;
   }
-
   numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
   wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
   wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
-
 }
 
 function prevWord() {
@@ -1165,21 +1146,14 @@ function prevWord() {
     wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
     wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
     count = wordList.length - 1;
-
   }
   numbersWord.innerHTML = `<p>${count + 1} out of ${wordList.length}</p>`;
   wordEn.innerHTML = `<p>${wordList[count][0]}</p>`;
   wordRu.innerHTML = `<p>${wordList[count][1]}</p>`;
-
 }
-
-
 
 next.addEventListener('click', nextWord);
 prev.addEventListener('click', prevWord);
-
-
-
 const textEl = document.getElementById('text');
 const voiceInEl = document.getElementById('voice');
 const pitchInEl = document.getElementById('pitch');
@@ -1199,20 +1173,17 @@ updateVoices();
 window.speechSynthesis.onvoiceschanged = updateVoices;
 
 function updateOutputs() {
-
   pitchOutEl.textContent = pitchInEl.value;
   rateOutEl.textContent = rateInEl.value;
   volumeOutEl.textContent = volumeInEl.value;
 }
 
 function updateVoices() {
-
   window.speechSynthesis.getVoices().forEach(voice => {
     const isAlreadyAdded = [...voiceInEl.options].some(option => option.value === voice.voiceURI);
     if (!isAlreadyAdded) {
       const option = new Option(voice.name, voice.voiceURI, voice.default, voice.default);
       voiceInEl.add(option);
-
     }
   });
 }
@@ -1232,19 +1203,16 @@ function speakText() {
     }
   } else {
     utterance.voice = window.speechSynthesis.getVoices().find(voice => voice.voiceURI === voiceInEl.value);
-
   }
   utterance.pitch = pitchInEl.value;
   utterance.rate = rateInEl.value;
   utterance.volume = volumeInEl.value;
-
   window.speechSynthesis.speak(utterance);
 }
 
 voiceInEl.addEventListener('change', () => {
   localStorage.setItem('voice', voiceInEl.value);
 });
-
 
 const setting = document.querySelector('.setting');
 const properties = document.querySelector('.modal');
@@ -1256,7 +1224,6 @@ setting.addEventListener('click', () => {
   properties.style.display === 'none' ? properties.style.display = 'block' : properties.style.display = 'none';
   overlay.style.display === 'none' ? overlay.style.display = 'block' : overlay.style.display = 'none';
 });
-
 
 close.addEventListener('click', () => {
   properties.style.display = 'none';

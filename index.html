@@ -1,90 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MemoryCard</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="wrapper">   
-        
-        <div class="memory-card"><div class="word_ru">to move, especially quickly and powerfully</div><div class="word_en" id="text">sweep</div></div> 
-      
-        
-      <div class="buttons">  
-          <button class="prev">Prev</button>
-          <button class="next">Next</button>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="memory-card">
+        <div class="word_ru">to move, especially quickly and powerfully</div>
+        <div class="word_en" id="text">sweep</div>
       </div>
 
-      <div class="speak" id="speak"><img src="./volume.png" alt="" width="40"></div>
-      <div class="numbersWord">1 out of 485</div> 
-      
-      
-        <div class="overlay" style="display: none;">
-          <div class="modal"  style="display: none;">
-      <div class="properties">
-        <label for="voice">Voice:</label>
-        <select id="voice"></select>
-        <div></div>
-    
-        <label for="pitch">Pitch:</label>
-        <input id="pitch" type="range" min="0.1" max="2" step="0.1" value="1">
-        <output for="pitch">1</output>
-    
-        <label for="rate">Rate:</label>
-        <input id="rate" type="range" min="0.1" max="2" step="0.1" value="1">
-        <output for="rate">1</output>
-    
-        <label for="volume">Volume:</label>
-        <input id="volume" type="range" min="0" max="1" step="0.1" value="1">
-        <output for="volume">1</output>
-        
+      <div class="buttons">
+        <button class="prev">Prev</button>
+        <button class="next">Next</button>
       </div>
-      <div class="close"><img src="./cancel.png" alt="" width="40"></div>
-      
-    </div>
-</div>
 
-  
-      <div class="setting"><img src="./settings.png" alt="" width="40" height="40"></div>
-      <div class="rules"><a href="./rules/index.html"><img src="./documents.png" alt="" width="45"></a></div>
+      <div class="speak" id="speak">
+        <img src="./volume.png" alt="" width="40" />
+      </div>
+      <div class="numbersWord">1 out of 485</div>
+
+      <div class="overlay" style="display: none">
+        <div class="modal" style="display: none">
+          <div class="properties">
+            <label for="voice">Voice:</label>
+            <select id="voice"></select>
+            <div></div>
+
+            <label for="pitch">Pitch:</label>
+            <input
+              id="pitch"
+              type="range"
+              min="0.1"
+              max="2"
+              step="0.1"
+              value="1"
+            />
+            <output for="pitch">1</output>
+
+            <label for="rate">Rate:</label>
+            <input
+              id="rate"
+              type="range"
+              min="0.1"
+              max="2"
+              step="0.1"
+              value="1"
+            />
+            <output for="rate">1</output>
+
+            <label for="volume">Volume:</label>
+            <input
+              id="volume"
+              type="range"
+              min="0"
+              max="1"
+              step="0.1"
+              value="1"
+            />
+            <output for="volume">1</output>
+          </div>
+          <div class="close"><img src="./cancel.png" alt="" width="40" /></div>
+        </div>
+      </div>
+
+      <div class="setting">
+        <img src="./settings.png" alt="" width="40" height="40" />
+      </div>
+      <div class="rules">
+        <a href="./rules/index.html"
+          ><img src="./documents.png" alt="" width="45"
+        /></a>
+      </div>
 
       <div class="choice">
-        <form class="dictionaries-form"  method="post">
+        <form class="dictionaries-form" method="post">
           <fieldset>
             <legend>What do you want to learn?</legend>
-          
-          <p class="poll-option">
-            <input class="dictionaries" data-learn="verbs" type="radio"  name="dictionaries" id="option2" value="phrasal verbs">
-            <label for="option2">phrasal verbs</label>
-          </p>
-          <p class="poll-option">
-            <input class="dictionaries " data-learn="word" type="radio"  checked name="dictionaries" id="option3" value="just words">
-            <label for="option3">just words</label>
-          </p>
-          <p class="poll-option">
-            <input class="dictionaries " data-learn="phrases" type="radio"   name="dictionaries" id="option4" value="cliche phrases">
-            <label for="option4">cliche phrases</label>
-          </p>
-          <p class="poll-option">
-            <input class="dictionaries " data-learn="verbsIrregul" type="radio"   name="dictionaries" id="option5" value="irregular verbs">
-            <label for="option5">irregular verbs</label>
-          </p>
-         
-          
-          
-        </fieldset>
+
+            <p class="poll-option">
+              <input
+                class="dictionaries"
+                data-learn="verbs"
+                type="radio"
+                name="dictionaries"
+                id="option2"
+                value="phrasal verbs"
+              />
+              <label for="option2">phrasal verbs</label>
+            </p>
+            <p class="poll-option">
+              <input
+                class="dictionaries"
+                data-learn="word"
+                type="radio"
+                checked
+                name="dictionaries"
+                id="option3"
+                value="just words"
+              />
+              <label for="option3">just words</label>
+            </p>
+            <p class="poll-option">
+              <input
+                class="dictionaries"
+                data-learn="phrases"
+                type="radio"
+                name="dictionaries"
+                id="option4"
+                value="cliche phrases"
+              />
+              <label for="option4">cliche phrases</label>
+            </p>
+            <p class="poll-option">
+              <input
+                class="dictionaries"
+                data-learn="verbsIrregul"
+                type="radio"
+                name="dictionaries"
+                id="option5"
+                value="irregular verbs"
+              />
+              <label for="option5">irregular verbs</label>
+            </p>
+          </fieldset>
         </form>
-
       </div>
-     
-
     </div>
-    <a href="https://github.com/Kate4ka007" class="github" target="_blank"><img src="./github.png" alt="" width="40px"></a>  
-    <div class="year">© 2022</div> 
-    
-<script src="./words.js"></script> 
-</body>
+    <a href="https://github.com/Kate4ka007" class="github" target="_blank"
+      ><img src="./github.png" alt="" width="40px"
+    /></a>
+    <div class="year">© 2022</div>
+
+    <script src="./words.js"></script>
+  </body>
 </html>
